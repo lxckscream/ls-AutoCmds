@@ -14,7 +14,7 @@ public final class Ls_AutoCmds extends JavaPlugin {
         saveDefaultConfig();
         debugMode = getConfig().getBoolean("debug");
         for (String ln : getConfig().getConfigurationSection("commands").getKeys(false)) {
-            Command command = new Command(ln, (ArrayList<String>) getConfig().getStringList("commands." + ln + ".executes"), getConfig().getInt("to-execute"));
+            Command command = new Command(ln, (ArrayList<String>) getConfig().getStringList("commands." + ln + ".executes"), getConfig().getInt("commands." + ln + ".to-execute"));
             commands.add(command);
         }
         new BukkitRunnable() {
