@@ -1,0 +1,4 @@
+name: ls-AutoCmds
+version: '${project.version}'
+main: ru.lxckscream.lsautocmds.Ls_AutoCmds
+api-version: '1.16'

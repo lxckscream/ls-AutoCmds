@@ -1,0 +1,13 @@
+#=-=-=##=-=-=##=-=-=##=-=-=##=-=-=#
+#                                 #
+#        for utopiahvh.pro        #
+#          by lxckScream          #
+#                                 #
+#=-=-=##=-=-=##=-=-=##=-=-=##=-=-=#
+
+debug: true
+commands:
+  auto-air:
+    executes:
+      - "loseair spawn"
+    to-execute: 5400
